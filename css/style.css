@@ -1,0 +1,128 @@
+/* Set body margin to zero to have full with nav bar */
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+/* Set logo scaling */
+#logo {
+  width: 7%; 
+  height: 7%; 
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  min-width: 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 45px;
+  text-decoration: none;
+  font-size:18px;
+  font-family: Arial;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #039be5;
+  transition: 0.5s;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  padding-right: 5%; 
+  padding-top: 1%; 
+  padding-bottom: 1%;
+}
+
+/* Style the three main sections */
+section {
+  height: 100vh;
+  padding-top: 5%;
+}
+
+#about {
+  background-color: white;
+  font-family: Arial;
+}
+
+#aboutText {
+  width: 50%;
+}
+
+#work {
+  border-top: 2px solid #d2d2d2;
+  border-bottom: 2px solid #d2d2d2;
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+#contact {
+  background-color: white;
+  font-family: Arial;
+}
+
+#footerInfo {
+  border-top: 1px solid #c3c5c9;
+  background-color: #eeeeee;
+  text-align: center;
+  color: #707070;
+}
+
+.wrap {
+    text-align:center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+   margin:0 auto;
+   display:inline-block
+}
+
+hr {
+  width: 25%;
+}
+
+.leftWork{
+    float: left;
+    background-color: white;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+    border-bottom: 3px solid #d2d2d2;
+    border-right: 3px solid #d2d2d2;
+}
+
+.rightWork{
+    float: right;
+    background-color: white;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+    border-bottom: 3px solid #d2d2d2;
+    border-right: 3px solid #d2d2d2;
+}
